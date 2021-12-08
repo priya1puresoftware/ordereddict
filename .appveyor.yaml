@@ -25,7 +25,7 @@ install:
 build: off
 
 test_script:
-  - echo Skipped for now
+  - python test/testordereddict.py
 
 after_test:
   - |
